@@ -148,6 +148,12 @@ nav ul li a {
     .banner-title {
         font-size: 48px;
     }
+    .features-area{
+        flex-direction: column;
+    }
+    .feature-image-container{
+        grid-template-columns: 1fr;
+    }
 }
 
 /* Responsive for medium Devices */
