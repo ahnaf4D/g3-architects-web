@@ -1,4 +1,35 @@
 /* Common Styles */
 * {
     font-family: 'Work Sans', sans-serif;
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+/* nav styles here */
+header {
+    background: rgba(255, 144, 14, 0.10);
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    list-style: none;
+    margin-right: 24px;
+}
+
+nav ul li a {
+    color: #424242;
+    font-size: 0.938rem;
+    font-weight: 500;
+    line-height: 26px;
+    text-decoration: none;
 }
