@@ -97,6 +97,9 @@ nav ul li a {
         margin-top: 10px;
         margin-bottom: 10px;
     }
+    .banner-area img {
+        max-width: 90%;
+    }
 }
 
 /* Responsive for medium Devices */
