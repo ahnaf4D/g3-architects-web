@@ -100,6 +100,9 @@ nav ul li a {
     .banner-area img {
         max-width: 90%;
     }
+    .banner-title{
+        font-size: 48px;
+    }
 }
 
 /* Responsive for medium Devices */
@@ -111,5 +114,9 @@ nav ul li a {
     nav ul {
         margin-top: 10px;
         margin-bottom: 10px;
+    }
+    .banner-area img{
+        width: 100%;
+        height: auto;
     }
 }
