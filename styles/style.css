@@ -89,20 +89,23 @@ nav ul li a {
 }
 
 /* Feature section styles */
-.features-area{
+.features-area {
     margin-top: 85px;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
-.feature-image-container{
+
+.feature-image-container {
     display: grid;
-    grid-template-columns:repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 24px;
 }
-.feature-title{
+
+.feature-title {
     margin-bottom: 24px;
 }
+
 .quick-list {
     color: #727272;
     font-size: 4rem;
@@ -148,10 +151,12 @@ nav ul li a {
     .banner-title {
         font-size: 48px;
     }
-    .features-area{
+
+    .features-area {
         flex-direction: column;
     }
-    .feature-image-container{
+
+    .feature-image-container {
         grid-template-columns: 1fr;
     }
 }
@@ -170,5 +175,13 @@ nav ul li a {
     .banner-area img {
         width: 100%;
         height: auto;
+    }
+
+    .features-area {
+        flex-direction: column;
+    }
+
+    .feature-image-container {
+        grid-template-columns: 1fr;
     }
 }
