@@ -6,6 +6,17 @@
     box-sizing: border-box;
 }
 
+.btn-primary {
+    border-radius: 8px;
+    background: #FF900E;
+    color: #FFF;
+    font-size: 1.25rem;
+    font-weight: 600;
+    padding: 20px;
+    border: none;
+    cursor: pointer;
+}
+
 /* nav styles here */
 header {
     background: rgba(255, 144, 14, 0.10);
@@ -39,22 +50,61 @@ nav ul li a {
     line-height: 26px;
     text-decoration: none;
 }
+
+/* Banner area styles */
+.banner-area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.banner-content {
+    text-align: center;
+}
+
+.banner-title,
+.banner-description {
+    margin-top: 30px;
+}
+
+.banner-title {
+    color: #131313;
+    font-size: 64px;
+    font-weight: 700;
+}
+
+.banner-description {
+    color: #727272;
+    font-size: 1rem;
+    line-height: 26px;
+    margin-bottom: 20px;
+}
+
+.banner-area img {
+    max-width: 1140px;
+    margin-top: 50px;
+    border-radius: 8px;
+}
+
 /* Responsive for mobile */
 @media screen and (max-width : 576px) {
     nav {
         flex-direction: column;
         gap: 10px;
     }
+
     nav ul {
         margin-top: 10px;
         margin-bottom: 10px;
     }
 }
+
 /* Responsive for medium Devices */
-@media screen and (min-width :576px ) and (max-width : 992px) {
-    nav{
+@media screen and (min-width :576px) and (max-width : 992px) {
+    nav {
         flex-direction: column;
     }
+
     nav ul {
         margin-top: 10px;
         margin-bottom: 10px;
