@@ -2,7 +2,7 @@
 * {
     font-family: 'Work Sans', sans-serif;
     margin: 0;
-    padding:0;
+    padding: 0;
     box-sizing: border-box;
 }
 
@@ -17,6 +17,12 @@ nav {
     align-items: center;
 }
 
+.nav-title {
+    color: #131313;
+    font-size: 45px;
+    font-weight: 700;
+}
+
 nav ul {
     display: flex;
 }
@@ -28,8 +34,29 @@ nav ul li {
 
 nav ul li a {
     color: #424242;
-    font-size: 0.938rem;
+    font-size: 1.125rem;
     font-weight: 500;
     line-height: 26px;
     text-decoration: none;
+}
+/* Responsive for mobile */
+@media screen and (max-width : 576px) {
+    nav {
+        flex-direction: column;
+        gap: 10px;
+    }
+    nav ul {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
+/* Responsive for medium Devices */
+@media screen and (min-width :576px ) and (max-width : 992px) {
+    nav{
+        flex-direction: column;
+    }
+    nav ul {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
 }
