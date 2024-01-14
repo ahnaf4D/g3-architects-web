@@ -179,6 +179,7 @@ nav ul li a {
 
     .features-area {
         flex-direction: column;
+        align-items: center;
     }
 
     .feature-image-container {
