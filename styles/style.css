@@ -187,6 +187,11 @@ nav ul li a {
 }
 
 /* Facts area styles here */
+.facts-content{
+    margin-top: 150px;
+    margin-left: 35px;
+    margin-bottom: 100px;
+}
 
 .facts-title {
     color: #131313;
