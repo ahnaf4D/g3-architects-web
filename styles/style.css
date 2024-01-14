@@ -197,7 +197,7 @@ nav ul li a {
     color: #131313;
     font-size: 45px;
     font-weight: 700;
-
+    margin-bottom: 24px;
 }
 
 .facts-description {
@@ -210,7 +210,7 @@ nav ul li a {
 
 .facts-container {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     text-align: center;
     gap: 10px;
 }
